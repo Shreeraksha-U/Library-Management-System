@@ -1,0 +1,29 @@
+# Secrets
+.env
+*.pem
+*.key
+
+# Database (local data)
+db.sqlite3
+db.sqlite3-journal
+*.sqlite3
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Django
+staticfiles/
+media/
+
+# IDEs / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
